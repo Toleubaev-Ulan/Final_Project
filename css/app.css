@@ -490,15 +490,15 @@ body {
   }
 }
 
-.elastic-toys {
+.food {
   padding-top: 30px;
 }
 
-.elastic-toys__title {
+.food__title {
   color: red;
 }
 
-.elastic-toys__image {
+.food__image {
   border-radius: 16px;
   background-color: transparent;
   overflow: hidden;
@@ -508,7 +508,7 @@ body {
   vertical-align: middle;
 }
 
-.elastic-toys__btn {
+.food__btn {
   background-color: red;
   border-radius: 25px;
   color: #fff;
@@ -519,13 +519,13 @@ body {
   text-decoration: none;
 }
 
-.elastic-toys__btn:hover {
+.food__btn:hover {
   color: #fff;
   text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  .elastic-toys__image {
+  .food__image {
     border-radius: 12px;
     height: 110px;
     margin-top: 10px;
@@ -823,59 +823,6 @@ body {
   }
 }
 
-.intro-toystore__title {
-  color: #a5c926;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-}
-
-.intro-toystore__heading {
-  color: #111111;
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 48px;
-}
-
-.intro-toystore__paragraph {
-  color: #999999;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.intro-toystore__link {
-  border-bottom: 2px solid #999999;
-  color: #111111;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  padding-bottom: 6px;
-}
-
-.intro-toystore__link:hover {
-  color: #111111;
-  border-color: red;
-  text-decoration: none;
-}
-
-.intro-toystore__image {
-  width: 100%;
-  border-radius: 16px;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-@media (max-width: 768px) {
-  .intro-toystore__heading {
-    font-size: 32px;
-  }
-  .promo__heading-2 {
-    margin-left: 25px;
-  }
-}
 
 .contacts-info {
   padding-left: 17px;
@@ -958,7 +905,7 @@ body {
   line-height: 24px;
 }
 
-.teddy-bear__back {
+.menu__back {
   overflow: hidden;
   width: 100%;
   padding: 80px;
@@ -968,7 +915,7 @@ body {
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-.teddy-bear__info h2 {
+.menu__info h2 {
   color: #111111;
   font-size: 40px;
   font-weight: 400;
@@ -976,7 +923,7 @@ body {
   margin-bottom: 20px;
 }
 
-.teddy-bear__info p {
+.menu__info p {
   color: #999999;
   font-size: 14px;
   font-weight: 400;
@@ -984,7 +931,7 @@ body {
   margin-bottom: 20px;
 }
 
-.teddy-bear__info h4 {
+.menu__info h4 {
   color: red;
   font-size: 24px;
   font-weight: 400;
@@ -992,7 +939,7 @@ body {
   margin-bottom: 20px;
 }
 
-.teddy-bear__field {
+.menu__field {
   border-radius: 5px;
   border-color: #333333;
   border-width: 1px;
@@ -1002,14 +949,14 @@ body {
   padding-left: 12px;
 }
 
-.teddy-bear__image {
+.menu__image {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
   width: 100%;
 }
 
-.teddy-bear__button {
+.menu__button {
   cursor: pointer;
   border-radius: 24px;
   background-color: red;
@@ -1024,7 +971,7 @@ body {
   text-decoration: none;
 }
 
-.teddy-bear__title {
+.menu__title {
   color: #111111;
   font-size: 17px;
   font-weight: 24px;
