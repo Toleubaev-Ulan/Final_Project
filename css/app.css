@@ -177,6 +177,68 @@ body {
   }
 }
 
+.login{
+  background: url(../images/png7.png) ;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Varela Round", sans-serif;
+}
+.login-container{
+  position: relative;
+  margin-top: 160px;
+  margin-bottom: 170px;
+  width: 450px;
+  height: auto;
+  background:white;
+  border-radius: 5px;
+}
+.form--title{
+  padding: 20px, 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color:black
+}
+.login-form{
+  padding: 20px 40px;
+
+}
+.login-form .font{
+  font-size: 19px;
+  color: black;
+  margin: 5px 0;
+
+}
+.login-form input{
+  height: 40px;
+  width: 350px;
+  padding: 0 5px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid  silver;
+}
+.login-form .font2{
+  margin-top: 30px;
+}
+.login-form button{
+  margin: 45px 0 30px 0;
+  height:  45px;
+  width: 365px;
+  font-size: 20px;
+  color:white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #1a237e;
+  border-radius: 3px;
+  border: 1px solid #3949ab; 
+}
+.login-form button:hover{
+background:#151c6a ;
+}
+
+
 .categories {
   color: #fff;
   margin-top: 5rem;
