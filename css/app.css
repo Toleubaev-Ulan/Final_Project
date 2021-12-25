@@ -8,11 +8,11 @@ body {
 }
 
 .border-grey {
-  border-color: #EEE !important;
+  border-color: #EEE ;
 }
 
 .border-green {
-  border-color: red !important;
+  border-color: red;
 }
 
 
@@ -48,9 +48,15 @@ body {
   color: #fff;
 }
 
-/*media ulan*/
-@media (max-width: 994px){
-  .header__menu, .Login{
+
+
+
+
+@media (max-width: 768px){
+  .header__menu{
+    display: none;
+  }
+  .col-7 .login_color{
     display: none;
   }
   
@@ -71,7 +77,27 @@ body {
   }
 }
 
+.header__menu--cart img {
+  margin-top: -4px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
+.header__menu--cart span {
+  background-color: #a5c926;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 10px;
+}
+
+.header__menu--cart:hover {
+  text-decoration: none;
+}
 
 .header .hamburger {
   font-size: 2rem;
@@ -79,8 +105,9 @@ body {
   top: 2px;
 }
 
+
 .hero-banner {
-  background: url(../images/png6.png)  0 0 no-repeat;
+  background: url(../images/bagraund.jpg)  0 0 no-repeat;
   background-size:cover;
   background-position: 70% 80%;
   height: 576px;
@@ -1100,4 +1127,22 @@ background:red ;
 .login-container h1{
   margin-top: 15px;
   text-align: center;
+}
+
+
+#menu-icon{
+  font-size: 2rem;
+  cursor: none;
+  display: none;
+}
+
+/*media ulan*/
+@media (max-width: 450px){
+  .header__menu, .header__logo{
+    display: none;
+  }
+  .header__logo{
+    height: 0px;
+
+  }
 }
